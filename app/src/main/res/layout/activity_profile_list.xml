@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:id="@+id/viewprofilepage"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.example.rishav.destrangify.my_profile" >
+
+
+        <TextView
+            android:text="Name"
+            android:id="@+id/title_name"
+            style="@style/p_title" />
+        <TextView
+            android:text="Nitish Garg"
+            android:id="@+id/text_name"
+            style="@style/p_text" />
+        <View
+            style="@style/hr" />
+
+
+        <TextView
+            android:text="Phone"
+            android:id="@+id/title_phone"
+            style="@style/p_title" />
+        <TextView
+            android:text="9085849414"
+            android:id="@+id/text_phone"
+            style="@style/p_text" />
+        <View
+            style="@style/hr" />
+
+
+        <TextView
+            android:text="Email"
+            android:id="@+id/title_email"
+            style="@style/p_title" />
+        <TextView
+            android:text="nitish.garg.6174@gmail.com"
+            android:id="@+id/text_email"
+            style="@style/p_text" />
+        <View
+            style="@style/hr" />
+
+
+        <TextView
+            android:text="Address"
+            android:id="@+id/title_address"
+            style="@style/p_title" />
+        <TextView
+            android:text="226, Dihing, IITG"
+            android:id="@+id/text_address"
+            style="@style/p_text" />
+        <View
+            style="@style/hr" />
+
+        <LinearLayout
+            android:id="@+id/my_interest_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="Interests"
+                android:id="@+id/title_interests"
+                style="@style/p_title" />
+
+            <TextView
+                android:text="Movies"
+                android:id="@+id/subtitle_movies"
+                style="@style/p_subtitle" />
+            <TextView
+                android:text="Not watched enough :P"
+                android:id="@+id/text_movies"
+                style="@style/p_text_small" />
+
+            <TextView
+                android:text="Songs"
+                android:id="@+id/subtitle_songs"
+                style="@style/p_subtitle" />
+            <TextView
+                android:text="All piano songs whose name you never heard"
+                android:id="@+id/text_songs"
+                style="@style/p_text_small" />
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prev"
+                android:id="@+id/btn_prev"/>
+            <Button
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:id="@+id/btn_next"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

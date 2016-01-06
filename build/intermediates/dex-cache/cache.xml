@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Rishav\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.12.0\34ca297c889cd2023074946c7097d96b30b20891\parse-android-1.12.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="34ca297c889cd2023074946c7097d96b30b20891">
+        <dex dex="C:\Users\Rishav\AndroidStudioProjects\DeStrangify\app\build\intermediates\pre-dexed\debug\parse-android-1.12.0-250c67aeb03bf68101c5ad35be012311f5b10b8c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Rishav\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\Rishav\AndroidStudioProjects\DeStrangify\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1-0d00ffbcdcbc0aa972a908b1dcb74d8c58ab9736.jar" />
+    </item>
+
+</items>

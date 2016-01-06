@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rishav.destrangify" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.javapapers.currentlocationinmap.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:required="true"
+        android:name="android.hardware.camera"></uses-feature>
+    <uses-feature
+        android:required="false"
+        android:name="android.hardware.camera.autofocus"></uses-feature>
+    <uses-feature
+        android:required="true"
+        android:name="android.hardware.location.gps"></uses-feature>
+    <uses-feature
+        android:required="true"
+        android:name="android.hardware.sensor.accelerometer"></uses-feature>
+    <uses-feature
+        android:required="true"
+        android:name="android.hardware.sensor.compass"></uses-feature>
+    <uses-feature
+        android:required="true"
+        android:name="android.hardware.sensor.gyroscope"></uses-feature>
+
+
+    <permission
+    android:name="com.example.rishav.destrangify.permission.MAPS_RECEIVE"
+    android:protectionLevel="signature" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:name="com.example.rishav.destrangify.DestrangifyApplication"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Dashboard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" android:theme="@style/AppTheme.Dark"/>
+        <activity android:name=".SignupActivity" android:theme="@style/AppTheme.Dark"/>
+        <activity android:name=".my_profile" />
+        <activity android:name=".MapsActivity" >
+            <meta-data android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
+        </activity>
+        <activity android:name=".ArCameraActivity" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDIykZK9Vh3mDo_SvajsZDKlzdHII9Em20" />
+    </application>
+
+</manifest>
